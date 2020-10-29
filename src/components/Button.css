@@ -1,0 +1,30 @@
+.button-wrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    background-color: #e94560;
+    /* background-color: #b80d57; */
+    color: #fefefe;
+    flex: 1;
+    /* outline: 2px solid #888888; */
+    border-radius: 5%;
+    margin: 4px;
+    opacity: 50%;
+}
+
+.button-wrapper:hover{
+    background: #ee9944;
+    font-weight: bolder;
+    color: #511845;
+    opacity: 45%;
+    border-radius: 100%;
+    transform: rotate(360deg) scale(0.9);
+    transition-duration: 1s;
+}
+
+.operator {
+    color: #fefefe;
+}
